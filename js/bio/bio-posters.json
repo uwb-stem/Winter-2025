@@ -1,0 +1,22 @@
+{
+    "presentations": [
+        {
+            "time": "",
+            "title": "Malabsorption Syndrome: DeNovo Ligand Design",
+            "studentName": "Gurleen Dosanjh",
+            "studentMajor": "Biology",
+            "facultyAdvisor": "UW Bothell School of STEM",
+            "section": 1,
+            "poster": "./posters/bio/gurleen_dosanj_poster.png"
+        },
+        {
+            "time": "",
+            "title": "How Mosses Protect Seeds From Heat",
+            "studentName": "Cris Ihara",
+            "studentMajor": "Biology",
+            "facultyAdvisor": "UW Bothell School of STEM",
+            "section": 1,
+            "poster": "./posters/bio/cynthia_chang_poster.png"
+        }
+    ]
+}

@@ -1,0 +1,538 @@
+@import url("./css/homepage.css");
+
+h2 {
+    margin: 40px;
+    font-family: 'EncodeSans-bold';
+    text-align: center;
+}
+
+.date {
+    font-family: 'EncodeSans-light';
+    font-size: 20px;
+    margin: -30px 0 60px 0;
+    text-align: center;
+}
+
+.text {
+    font-family: OpenSans;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px 10% 80px 10%;
+    text-align: center;
+}
+
+.text a:hover {
+    color: #b7a57a;
+    text-decoration: underline;
+}
+
+hr.purple-line {
+    background-color: #4b2e83;
+    border-width: 0;
+    color: #4b2e83;
+    height: 2px;
+    margin: auto;
+    width: 65%;
+}
+
+@media only screen and (max-width: 1600px) {    /* medium-sized desktop */
+    hr.purple-line {
+        width: 80%;
+    }
+}
+
+hr.short-black-line {
+    background-color: #000;
+    margin-left: 0;
+    width: 20%;
+} 
+
+.presentation {
+    font-family: 'EncodeSans-regular';
+    margin: 40px;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*--------------- BIO Duplicate  ---------------*/
+
+.presentationBIO {
+    font-family: 'EncodeSans-regular';
+    /**/margin: 40px 0 0 -20px;
+    font-size: 20px;
+    /*display: inline-block;*/
+    vertical-align: middle;
+}
+
+.presentationBIO h3 {      /* project title */
+    font-family: 'EncodeSans-bold';
+    margin-bottom: 0px;
+}
+
+.presentationBIO h4 {      /* student name */
+    /* margin: 15px 0 15px 0; */
+    font-family: 'EncodeSans-medium';
+    width: 240px;
+}
+
+.presentationBIO p {       /* faculty advisors */
+    margin-top: -10px;
+    font-size: 17px;
+}
+
+.presentationBIO ul {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #f9f9f9f6;
+    /* display: flex; */
+    margin: 0 35% 0;
+    padding: 40px 140px 40px 40px;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 455px;
+    align-items: center;
+}
+
+.presentationBIO li {
+    justify-content: center;
+    width: 450px;
+    /* background-color: pink; */
+}
+
+.presentationBIO img {     /* poster image */
+    border: 4px double rgb(0 0 0 / 0.6);
+    /* height: 100%; */
+    max-height: 400px;
+    min-width: 550px;
+    max-width: 550px;
+}
+
+/*--------------- BIO Duplicate <End>  ---------------*/
+
+.presentation-box {
+    text-align: left;
+}
+
+.presentation h3 {      /* project title */
+    font-family: 'EncodeSans-bold';
+    margin-bottom: 0px;
+}
+
+.presentation h4 {      /* student name */
+    /* margin: 15px 0 15px 0; */
+    font-family: 'EncodeSans-medium';
+    width: 240px;
+}
+
+.reu h3 {
+    margin-bottom: 50px;
+}
+
+.students {
+    margin: -10px 0 -10px 0;
+    display: flex;
+    line-height: 30px;
+    width: 450px;
+}
+
+.students-extend {
+    margin: -10px 0 -10px 0;
+    display: flex;
+    line-height: 30px;
+    width: 600px;
+}
+
+.reu-student {
+    margin: -50px 0px -0px 0px;
+}
+
+.majors {               /* student's majors, minors */
+    font-size: 18px;
+    font-family: 'EncodeSans-light';
+    margin-top: 28px;
+}
+
+.university {
+    font-size: 18px;
+    font-family: 'EncodeSans-light';
+    margin-top: -30px;
+}
+
+.presentation p {       /* faculty advisors */
+    margin-top: -10px;
+    font-size: 17px;
+}
+
+
+.present-time {         /* presentation time */
+    font-size: 15px;
+}
+
+.presentation ul {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #f9f9f9f6;
+    /* display: flex; */
+    margin: 0 35% 0;
+    padding: 40px 140px 40px 40px;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 445px;
+    align-items: center;
+}
+
+
+@media screen and ( max-width: 999px) {
+.presentation ul {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #f9f9f9f6;
+     margin: 0 0 0 ;
+    padding: 40px 140px 40px 40px;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 720px;
+    align-items: center;
+}
+
+
+
+}
+
+
+.presentation li {
+    justify-content: center;
+    width: 450px;
+    /* background-color: pink; */
+}
+
+.presentation img {     /* poster image */
+    border: 4px double rgb(0 0 0 / 0.6);
+    /* height: 100%; */
+    max-height: 400px;
+    min-width: 550px;
+    max-width: 550px;
+}
+
+/* Applied Computing 
+    referencing: https://www.uwb.edu/
+*/
+
+.acContent_Block {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    width: 950px;
+    margin: auto;
+    --height: 100%;
+}
+
+.acContent {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    background-image: url(https://uwb-prodkcms-endpnt.azureedge.net/edu-v2/_12.00/_images/contentBg-home.gif);
+    background-repeat: repeat-y;
+    background-position: bottom 10px right 230px;
+}
+
+.colBox {
+    margin-bottom: 30px;
+}
+
+.student-box {
+    width: 384px;
+    margin: 35px auto 35px;
+}
+
+.student-box img {
+    border: 4px double rgb(0 0 0 / 0.6);
+    max-height: 400px;
+    min-width: 360px;
+    max-width: 550px;
+}
+
+.student-box h4 {
+    /* margin: 15px 0 15px 0; */
+    font-family: 'EncodeSans-medium';
+    width: 240px;
+    margin-top: 28px;
+}
+
+.student-box h3 {
+    font-family: 'EncodeSans-bold';
+    margin-bottom: 0px;
+}
+
+.student-box p {
+    margin-top: -10px;
+    font-size: 17px;
+}
+
+.purple-box h3 {
+    color:rgb(255, 255, 255);
+    padding: 30px 10px 0 10px;
+}
+
+.purple-box p {
+    color:rgb(240, 240, 240);
+    padding: 0 10px 0 10px;
+    font-family: 'EncodeSans-regular';
+}
+
+.purple-box-5Students h3 {
+    color:rgb(255, 255, 255);
+    padding: 30px 10px 0 10px;
+}
+
+.purple-box-5Students p {
+    color:rgb(240, 240, 240);
+    padding: 0 10px 0 10px;
+    font-family: 'EncodeSans-regular';
+}
+
+.gray-box h1 {
+    font-size: 24px;
+    font-family: 'EncodeSans-medium';
+}
+
+.gray-box h3 {
+    font-size: 16px;
+    font-family: 'EncodeSans-regular';
+}
+
+.gray-box p {
+    text-align: left;
+    margin: 0 auto;
+}
+
+.alternate-gray-box h1{
+    font-size: 24px;
+    font-family: 'EncodeSans-medium';
+}
+
+.alternate-gray-box h3{
+    font-size: 16px;
+    font-family: 'EncodeSans-regular';
+}
+
+.alternate-gray-box p{
+    text-align: left;
+    margin: 0 auto;
+}
+
+.alternate2-gray-box h1{
+    font-size: 24px;
+    font-family: 'EncodeSans-medium';
+}
+
+.alternate2-gray-box h3{
+    font-size: 16px;
+    font-family: 'EncodeSans-regular';
+}
+
+.alternate2-gray-box p{
+    text-align: left;
+    margin: 0 auto;
+}
+
+.gray-box-text {
+    margin-left: 50px;
+    margin-right: 100px;
+    float: left;
+    display: inline;
+}
+
+.gray-box-text p{
+    /*text-align: justify;
+    margin: 0 auto;*/
+    width: 25em;
+}
+
+.gray-box-text-right {
+    float: left;
+    display: inline;
+}
+
+#col1 {
+    padding-top: 0px;
+}
+
+#col2 {
+    line-height: 22px;
+}
+
+#col3 {
+    padding-top: 120px;
+}
+
+#col3-alternate {
+    padding-top: 160px;
+}
+
+#col3-alternate2 {
+    padding-top: 140px;
+}
+
+.acspan-7 {
+    width: 278px;
+}
+
+.acspan-6 {
+    width: 461px;
+}
+
+.acspan-12 {
+    width: 461px;
+}
+
+.acspan-6, .acspan-7, .acspan-12 {
+    float: left;
+}
+
+.acContent_Block div {
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.acContent_Block .last {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.purple-box{
+    background-color: rgb(75, 46, 131);
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    height: 952.53px; 
+}
+
+.purple-box-5Students{
+    background-color: rgb(75, 46, 131);
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    height: 954.53px; 
+}
+
+.gray-box {
+    background-color: #F2F2F2;
+    position: relative;
+    overflow: hidden;
+    width: 206.1%;
+    margin: 0 auto;
+    height: 220px;
+    text-align: center;
+}
+
+.alternate-gray-box {
+    background-color: #F2F2F2;
+    position: relative;
+    overflow: hidden;
+    width: 206.1%;
+    margin: 0 auto;
+    height: 260px;
+    text-align: center;
+}
+
+.alternate2-gray-box {
+    background-color: #F2F2F2;
+    position: relative;
+    overflow: hidden;
+    width: 206.1%;
+    margin: 0 auto;
+    height: 240px;
+    text-align: center;
+}
+
+.empty-box {
+    background-color: #f2f2f200;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    height: 100px;
+}
+
+/*reference for code below: https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_modal_gallery */
+
+.w3-opacity,.w3-hover-opacity:hover{opacity:0.60}.w3-opacity-off,.w3-hover-opacity-off:hover{opacity:1}
+.w3-opacity-max{opacity:0.25}.w3-opacity-min{opacity:0.75}
+
+.w3-modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
+.w3-modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:1000px}
+
+
+/* Applied Computing end*/
+
+.info-box {
+    background-color: #4b2e83;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    margin: 10px 280px;
+    padding: 5px 0 60px 0;
+    text-align: center;
+}
+
+.info-box h1 {
+    font-size: 25px;
+    font-family: 'EncodeSans-bold';
+    margin-bottom: -32px;
+}
+
+.info-box h2 {
+    font-size: 20px;
+    font-family: 'EncodeSans-light';
+    margin-bottom: -30px;
+}
+
+.info-box h4 {
+    font-size: 17px;
+    font-family: 'EncodeSans-regular';
+    margin-bottom: -10px;
+}
+
+.info-box p {
+    font-size: 24px;
+    font-family: 'EncodeSans-regular';
+    margin-bottom: -20px;
+}
+
+.panel-discussion {              /* for Applied Computing panel discussions */
+    padding: 40px 0 50px 0;
+    text-align: center;
+}
+
+.panel-discussion h3 {          /* time */
+    font-size: 16px;
+    font-family: 'EncodeSans-regular';
+}
+
+.panel-discussion h2 {          /* panel discussion text */
+    font-size: 20px;
+    font-family: 'EncodeSans-medium';
+    margin: 20px 0 -10px 0;
+}
+
+.panel-discussion h1 {          /* discussion topic */
+    font-size: 26px;
+    font-family: 'EncodeSans-medium';
+    /* margin: -5px 0 10px 0; */
+}
+
+/* Extra large devices (large laptops and desktops, 1600px and up) */
+@media only screen and (min-width: 1600px) {
+    .info-box {
+        margin: 10px 25%;
+    }
+}
+
+.space {
+    height: 5px;
+}
+

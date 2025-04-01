@@ -1,0 +1,232 @@
+/* ------------------- UW button -------------------- */
+
+button.uw-btn {
+  border: none;
+}
+
+a.uw-btn, button.uw-btn, input.uw-btn {
+  padding: 11px 10px;
+  text-transform:uppercase;
+  /* background-color:#e8e3d3; */
+  background-color: rgba(255, 255, 255, 0.938);
+  font-family:"Encode Sans Compressed",sans-serif;
+  font-weight:800;
+  color:#5A5A5A;
+  /* display:inline-block; */
+  position:relative;
+  background-image:none !important;
+  /* border-bottom:none; */
+  text-decoration:none;
+  margin-top: -70px;
+  margin-bottom: 25px;
+  margin-right: 37px;
+  margin-left: 10%;
+  z-index:1;
+  line-height:24px;
+  font-size:16px;
+  text-decoration:none !important;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+  float: right;
+  left: 20px;
+  box-shadow:inset 0px 0px 0px 0.03em #000;
+}
+
+
+@media screen and (max-width: 999px){
+a.uw-btn, button.uw-btn, input.uw-btn {
+  padding: 11px 10px;
+  text-transform:uppercase;
+  /* background-color:#e8e3d3; */
+  background-color: rgba(255, 255, 255, 0.938);
+  font-family:"Encode Sans Compressed",sans-serif;
+  font-weight:800;
+  color:#5A5A5A;
+  /* display:inline-block; */
+  position:relative;
+  background-image:none !important;
+  /* border-bottom:none; */
+  text-decoration:none;
+  margin-top: -260px;
+  margin-bottom: 25px;
+  margin-right: 37px;
+  margin-left: 10%;
+  z-index:1;
+  line-height:24px;
+  font-size:16px;
+  text-decoration:none !important;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+  float: right;
+  left: 20px;
+  box-shadow:inset 0px 0px 0px 0.03em #000;
+}
+}
+
+
+
+
+
+
+a.uw-btn:before,button.uw-btn:before,input.uw-btn:before {
+  content:"";
+  width:35px;
+  right:-35px;
+  top:0;
+  bottom:0;
+  position:absolute;
+  background-color:#4b2e83;
+  /* padding: 20px 0; */
+  /* border: 1px solid #929191; */
+  border-left:5px solid rgba(0,0,0,0.3);
+}
+
+a.uw-btn:hover,button.uw-btn:hover,a.uw-btn:focus,button.uw-btn:focus,input.uw-btn:hover,input.uw-btn:focus {
+  color:#85754d;
+  background-color:#f5f5f5
+}
+
+a.uw-btn:hover:before,button.uw-btn:hover:before,a.uw-btn:focus:before,button.uw-btn:focus:before,input.uw-btn:focus:before,input.uw-btn:hover:before {
+  /* background-color:#613ba9 */
+  background-color:#402770
+
+}
+
+a.uw-btn.btn-gold:hover:before,button.uw-btn.btn-gold:hover:before,input.uw-btn.btn-gold:hover:before {
+  background-color:#a49161
+}
+
+a.uw-btn.btn-purple,button.uw-btn.btn-purple,input.uw-btn.btn-purple {
+  /* background-color:#4b2e83; */
+  background-color:#613ba9;
+  color:white
+}
+
+a.uw-btn.btn-purple:hover,button.uw-btn.btn-purple:hover,a.uw-btn.btn-purple:focus,button.uw-btn.btn-purple:focus,input.uw-btn.btn-purple:hover,input.uw-btn.btn-purple:focus {
+  /* background-color:#402770 */
+  background-color:#613ba9
+
+}
+
+a.uw-btn.btn-purple:before,button.uw-btn.btn-purple:before,input.uw-btn.btn-purple:before {
+  background-color:#402770
+}
+
+a.uw-btn.btn-purple:hover:before,button.uw-btn.btn-purple:hover:before,input.uw-btn.btn-purple:hover:before {
+  background-color:#201338
+}
+
+a.uw-btn:after,button.uw-btn:after,input.uw-btn:after {
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  width:55px;
+  height:55px;
+  right:-40px;
+  top:50%;
+  margin-top:-28px;
+  background:url(../assets/svg/uw-sprite.svg) no-repeat -36px -475px transparent;
+}
+
+a.uw-btn.btn-play:after,button.uw-btn.btn-play:after,input.uw-btn.btn-play:after {
+  background-position:-36px -539px
+}
+
+a.uw-btn.btn-external:after,button.uw-btn.btn-external:after,input.uw-btn.btn-external:after {
+  background-position:-146px -475px
+}
+
+a.uw-btn.btn-plus:after,button.uw-btn.btn-plus:after,input.uw-btn.btn-plus:after {
+  background-position:-95px -539px
+}
+
+a.uw-btn.btn-gold:before,button.uw-btn.btn-gold:before,input.uw-btn.btn-gold:before {
+  background-color:#85754d
+}
+
+a.uw-btn.btn-gold:before,button.uw-btn.btn-gold:before,input.uw-btn.btn-gold:before {
+  border-left:5px solid rgba(0,0,0,0.1)
+}
+
+/* ---------- UW Small Button ----------- */
+.btn-sm {
+  padding: 5px 10px;
+  font-size: 15px;
+  line-height: 1.5;
+  border-radius: 3px;
+  /* left: -30px; */
+}
+a.uw-btn.btn-sm,
+button.uw-btn.btn-sm {
+  float: none;
+  background-color:#e8e3d3;
+  padding: 9px 14px;
+  font-size: 14px;
+  font-weight: 800;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  margin-left: -3px;
+}
+a.uw-btn.btn-sm:before,
+button.uw-btn.btn-sm:before {
+  width: 30px;
+  right: -30px;
+}
+a.uw-btn.btn-sm:after,
+button.uw-btn.btn-sm:after {
+  width: 45px;
+  height: 45px;
+  top: 50%;
+  margin-top: -21px;
+  right: -35px;
+  background-size: 740px;
+  background-position: -32px -410px;
+}
+a.uw-btn.btn-sm.btn-left,
+button.uw-btn.btn-sm.btn-left {
+    margin-left: 43px;
+}
+a.uw-btn.btn-sm.btn-left:before,
+button.uw-btn.btn-sm.btn-left:before {
+    left: -43px;
+    border-right: 5px solid rgba(0, 0, 0, 0.3);
+    border-left: none;
+}
+a.uw-btn.btn-sm.btn-left:after,
+button.uw-btn.btn-sm.btn-left:after {
+    left: -43px;
+    margin-top: -25px;
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+a.uw-btn.btn-sm.btn-play:after,
+button.uw-btn.btn-sm.btn-play:after {
+    background-position: -31px -466px;
+}
+a.uw-btn.btn-sm.btn-external:after,
+button.uw-btn.btn-sm.btn-external:after {
+    background-position: -126px -410px;
+}
+a.uw-btn.btn-sm.btn-plus:after,
+button.uw-btn.btn-sm.btn-plus:after {
+    background-position: -83px -465px;
+}
+
+.cards-widget a.uw-btn.btn-sm {
+  padding: 5px 11px;
+  font-size: 13px;
+}
+.cards-widget a.uw-btn.btn-sm:after {
+  right: -40px;
+  background-size: 580px;
+  background-position: -21px -317px;
+}
+.cards-widget a.uw-btn.btn-sm:before {
+  width: 35px;
+  right: -35px;
+}

@@ -1,0 +1,310 @@
+#main {
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  position: relative;
+}
+
+.project-index-right-btn {
+      background-color: red;
+      /* background-image: url(https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/98/2017/06/07212352/BoundlessBand_LeftAngleWordmarkW-HEX.png); */
+      background-size: 100%;
+      background-repeat: no-repeat;
+      width: 300px;
+      float: right;
+      height: 50px;
+      margin: 20px 0 50px 0;
+}
+.topnav {
+  overflow: hidden;
+  background-color:#C4C4C4;
+  width: 300px;
+  padding: 10px;
+  
+}
+.topnav input[type=text] {
+  float: center;
+  padding: 6px;
+  border: none;
+ 
+  font-size: 17px;
+}
+.zoom-room-buttons {
+    font-family: 'OpenSans';
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 40px;
+    text-align: center;
+    justify-content: space-between;
+    width: 1200px;
+    /* background-color: aqua; */
+}
+
+@media screen and (max-width: 999px){
+.zoom-room-buttons {
+    font-family: 'OpenSans';
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 40px;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+
+
+}
+
+
+
+.zoom-room-buttons-eng {
+  font-family: 'OpenSans';
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-bottom: 40px;
+  text-align: center;
+  justify-content: space-between;
+  width: 600px;
+  
+  /* background-color: aqua; */
+}
+
+.zoom-room-buttons button {
+    height: 45px;
+    font-size: 20px;
+    border-color: #000;
+    border-width: 0.5px;
+    margin: auto;
+    padding: 0 10px;
+    /* background-color: pink; */
+}
+
+.zoom-room-buttons-eng a {
+  font-size: 20px;
+  border-width: 0.5px;
+  border-color: #b7a57a00;
+  margin: auto;
+  padding: 10px 10px;
+  /**/ background-color: rgba(255, 192, 203, 0);
+}
+
+.zoom-room-buttons-eng a:hover {
+  color: #85754d;
+  background-color: hsl(0, 0%, 90%);
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.zoom-room-buttons-eng button {
+  height: 45px;
+  font-size: 20px;
+  border-width: 0.5px;
+  border-color: #b7a57a00;
+  margin: auto;
+  padding: 0 10px;
+  /**/ background-color: rgba(255, 192, 203, 0); 
+}
+
+.zoom-room-buttons-eng button:hover {
+  color: #85754d;
+  background-color: hsl(0, 0%, 90%);
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.zoom-room-buttons-eng button:active {
+  color: #85754d;
+}
+
+.project-index-button {
+    background-color: #EFEDE4;
+    border: none;
+    padding-top: 5px;
+}
+
+.project-index-button:hover {
+    text-decoration: underline;
+}
+
+.vertical-line {
+    border: 1px solid black;
+    height: 45px;
+    margin: auto;
+}
+
+.hide {
+  display: none;
+}
+
+/* .room {
+    transition: all 1s;
+} */
+
+.chosen {
+  background-color: hsl(0, 0%, 90%);
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.notChosen {
+  border: none;
+  background-color: #EFEDE4;
+  /* opacity: 0.5; */
+  color:hsl(0, 0%, 60%);
+}
+
+.notChosen:hover {
+  color: #85754d;
+  opacity: 1;
+  /* border: #888; */
+  text-decoration: underline;
+}
+
+.small-space {
+  height: 15px;
+}
+
+/* -------------------- Side nav bar -------------------------- */
+/* The side navigation menu */
+.sidenav {
+  border: 1px solid black;
+  height: 100%;
+  /* margin-top: 175px; */
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  /* background-color: #EFEDE4; */
+  background-color: #ffffff;
+  overflow-x: hidden;
+  transition: transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  /* padding-top: 60px; */
+}
+
+
+.sidenav a {
+  padding: 8px 8px 8px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'EncodeSans-regular';
+  color: black;
+  display: block;
+  transition: 0.3s;
+  line-height: 1.3;
+}
+
+.sidenav span {         /*  student name in side nav */
+  font-family: 'EncodeSans-light';
+  font-size: 18px;
+  transition: 0.3s;
+  color: #000000ce;
+}
+
+.sidenav a:hover span {
+  color: #ffffffdc;
+}
+
+.sidenav a:hover {
+  color: #ffffff;
+}
+
+.sidenav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.sidenav li {
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+
+.sidenav li:hover {
+  background-color: #6044a4;
+}
+
+
+
+
+@media screen and (max-width: 999px) {
+/* The side navigation menu */
+#sideNavBtn.uw-btn {
+text-transform: uppercase;
+background-color: #e8e3d3;
+background-color: rgba(255, 255, 255, 0.938);
+font-family: "Encode Sans Compressed",sans-serif;
+font-weight: 800;
+color: #5A5A5A;
+display: inline-block;
+position: relative;
+background-image: none !important;
+border-bottom: none;
+text-decoration: none;
+margin-top: 30px;
+margin-bottom: 55px;
+margin-right: 37px;
+margin-left: 10%;
+z-index: 1;
+line-height: 24px;
+font-size: 16px;
+text-decoration: none !important;
+position: -webkit-sticky;
+position: sticky;
+top: 50px;
+float: right;
+left: 20px;
+box-shadow: inset 0px 0px 0px 0.03em #000;g-top: 60px; 
+}
+
+
+
+
+}
+
+
+
+
+
+.sidenav .closebtn {
+  /* position: absolute; */
+  padding: 0 0 0 0;
+  margin-top: -5px;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  /* background-color: aquamarine; */
+}
+
+@media screen and (max-height: 450px) {
+  /* .sidenav {padding-top: 15px;} */
+  .sidenav a {font-size: 18px;}
+}
+
+.project-index-heading {
+  display: flex;
+  background-color: #C4C4C4;
+  justify-content: space-between;
+  height: 40px;
+  padding: 5px 10px;
+}
+
+.project-index-heading h1 {
+  font-family: 'EncodeSans-bold';
+  font-size: 25px;
+  /* background-color: antiquewhite; */
+  margin: 2px 0 10px 0;
+}
+
+.side-room-number {
+  background-color: #B7A57A;
+  font-family: 'EncodeSans-medium';
+  font-size: 20px;
+  height: 40px;
+  padding: 5px 0 0 10px;
+  padding-bottom: 0px;
+}
+

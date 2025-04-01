@@ -1,0 +1,100 @@
+{
+  "presentations": [
+    {
+      "time": "1:00 PM - 1:15 PM",
+      "projectId": "csse-4-100",
+      "title": "Verification and Performance Evaluation of the MASS Java Library Toward Its Use for A Graph Database",
+      "studentName": "James Day",
+      "studentMajor": "CSSE",
+      "projectType": "Faculty Research",
+      "facultyAdvisor": " Dr. Munehiro Fukuda",
+      "section": 4,
+      "poster": "./posters/csse/james_day_poster.png",
+      "abstract": "Distributed graph databases are essential for applications including social networks, fraud detection, and recommendation engines. This project benchmarks MASS (Multi-Agent Spatial Simulation) against Hazelcast, a distributed in-memory computing library, to compare their performance and scalability for a distributed graph database. The focal point of this project is to assess these libraries in handling complex graph algorithms and analyzing how improvements in MASS, including partitioning strategies, affect the performance of the graph database.\n\nTwo benchmarks were implemented in both MASS and Hazelcast, including clustering coefficient and articulation points. The clustering coefficient benchmark measures how tightly connected vertices in a graph are; it was chosen to highlight MASS’s computational and scalability strengths. The articulation points benchmark identifies cut vertices that disconnect the graph when removed; it was chosen to evaluate partitioning strategies in MASS as the benchmark requires high messaging overhead. These benchmarks measure computation time on different configurations of machines to determine the scalability of the MASS graph database with its agent-based approach. These benchmarks also measure the improvements currently being made in MASS, including new partitioning strategies for vertices. MASS originally used a round-robin portioning strategy, but two other strategies are currently being explored: Hazelcast’s hash-based portioning and METIS, which minimizes edge cuts across partitions.\n\n The results of these benchmarks found that Hazelcast generally outperforms MASS in articulation points, but MASS outperforms Hazelcast in the clustering coefficient benchmark. Generally, MASS scales better, so a benchmark like clustering coefficient, which has more computational complexity and less message passing, performs better. MASS tends to perform better in benchmarks that have large and dense graphs. The results of the different portioning strategies found that METIS reduces runtime by up to 80% on smaller node configurations and around 1-5% on larger node configurations. METIS performs particularly well on real-world datasets, as the natural clustering/grouping gives better partitions with fewer edges cut between partitions, leading to lower communication overhead. \n\nThis project gave the DSL (Distributed Systems Laboratory) insights into the trade-offs of an agent-based approach to a graph database. It also demonstrated how different portioning strategies impact MASS’s performance. This project will also spur future research into messaging improvements in MASS using Aeron. As MASS continues to receive updates, future benchmarking will be needed to test optimizations as well as comparisons to other distributed graph databases."
+    },
+    {
+      "time": "1:15 PM - 1:30 PM",
+      "projectId": "csse-4-115",
+      "title": "Title of Poster",
+      "studentName": "Kevin (Min-Kai) Hsu",
+      "studentMajor": "CSSE",
+      "projectType": "Faculty Research",
+      "facultyAdvisor": " Dr. Munehiro Fukuda",
+      "section": 4,
+      "poster": "./posters/csse/kevin_hsu_poster.jpg",
+      "abstract": "Graph databases (GDB) excel over traditional databases when the data is highly connected and the traversal pattern would normally require time-consuming JOIN operations. MASS (Multi-Agent Spatial Simulation) is a parallel computing library developed by the Distributed Systems Laboratory (DSLab) at UW Bothell. A version of a graph database system based on the MASS library is currently under early development. We are interested in how it would eventually perform against the established players in the graph database realm. The current set of benchmarking queries that have been run on MASS consists of simple depth traversals.\n\nMy task is to research use cases and patterns where GDB are being used in the real world, gather and process the appropriate datasets, write up queries, and perform runtime benchmark comparisons across the following established GDB systems: Neo4j with the Cypher language, ArangoDB with the AQL language, and TigerGraph with the GSQL language.\n\nThe four real-world use cases I have researched and found corresponding datasets are sink nodes, product recommendations, identity and access management (IAM), and supply chain logistics. Each use case exhibits how different industries could leverage graph databases to model and gain insight into data. The resulting graph database queries also vary in complexity.\n\nThe runtime performance results and comparison reflect the multiple factors affecting the speed of a graph database query. From storage method, graph structure, query design, ordering of the clauses, to language limitations all play a role to varying degrees.\n\nDue to the fact most queries require Cypher clauses beyond what MASS currently supports. The runtime performance comparisons involving MASS would be left to future research."
+    },
+    {
+      "time": "1:30 PM - 1:45 PM",
+      "projectId": "csse-4-130",
+      "title": "Link Predictionin MASS GraphDB",
+      "studentName": "Tyler Schmale",
+      "studentMajor": "CSSE",
+      "projectType": "Faculty Research",
+      "facultyAdvisor": " Dr. Munehiro Fukuda",
+      "section": 4,
+      "poster": "./posters/csse/tyler_schmale_poster.png",
+      "abstract": "This capstone project focuses on implementing and evaluating topological link prediction algorithms in MASS GraphDB, a distributed graph database developed by DSLab at University of Washington Bothell.  Built on the MASS parallel-computing library for multi-agent and spatial simulations, GraphDB enables users to store data using a property graph model.  Link prediction is a fundamental problem in graph analysis, with applications including social networks, recommendation systems, and biological networks.  The goal of this work was to extend the functionality of MASS GraphDB by implementing predictive capabilities based on topological properties of the graph.\n\nTo achieve this, five topological link prediction algorithms were implemented within MASS GraphDB: common neighbors, total neighbors, adamic-adar, preferential attachment, and resource allocation.  A benchmarking study was conducted to compare the performance of these algorithms against a widely used graph database, Neo4j.  Additionally, a threshold analysis tool was developed to assist users in selecting appropriate threshold values for their graphs.\n\nExperimental results demonstrated that MASS GraphDB’s link prediction functionality outperforms Neo4j, achieving a 2-3x speedup on average.  This performance improvement is due to MASS GraphDB’s in-memory architecture, which eliminates the need to retrieve data from the disk. In contrast, Neo4j relies on disk-based storage, leading to slower query performance.\n\nThe significance of this work lies in its contribution to scalable graph-based machine learning.  By integrating efficient link prediction algorithms, MASS GraphDB now provides users with a powerful set of tools for identifying potential future connections in their data."
+    },
+    {
+      "time": "1:45 PM - 2:00 PM",
+      "projectId": "csse-4-145",
+      "title": "MASS CUDA Benchmarking",
+      "studentName": "Paul Sese",
+      "studentMajor": "CSSE",
+      "projectType": "Faculty Research",
+      "facultyAdvisor": " Dr. Munehiro Fukuda",
+      "section": 4,
+      "poster": "./posters/csse/paul_sese_poster.png",
+      "abstract": "For my capstone project I was tasked with making benchmark programs for the improvement of MASS CUDA. Multi-Agent Spatial Simulation (MASS) is a library to help parallelize Agent Based Models (ABM). ABMs are simulations that involve multiple agents interacting with each other in an environment. These simulations are meant to handle a lot of data which require libraries such as MASS to parallelize the computation to efficiently obtain simulation results. MASS CUDA is a version of MASS that utilizes CUDA and GPU computing instead of multiple computing nodes.\n\nThe benchmark I developed was the Virtual Development Team (VDT) simulation. The simulation’s agents are the teams and their engineers. In the simulation each team has a copy of tasks that they assign to their corresponding engineers to work on. Each team has its own configuration of engineers and to effectively run the simulation multiple engineers and teams should be working on different tasks in parallel. VDT was developed for both MASS CUDA and FLAME GPU 2 which is a similar ABM library that also uses GPU computing like MASS CUDA.\n\nThe purpose of these benchmarks is to highlight MASS CUDA’s strengths and weaknesses in comparison to FLAME GPU 2. This helps current and future developers who work on improving or updating MASS CUDA by giving a providing insights on where to focus on improving the library in terms of both performance and programmability. The results of the development of the benchmarks are not only statistics that illustrate some differences between the two libraries but also experience in developing with both providing insight into what worked and what was frustrating when using each library.\n\nThe benchmarks’ performance execution results showcase how MASS CUDA performs better than FLAME GPU 2 in intra-team simulations. Programmability didn’t have a clear winner in terms of statistics as MASS CUDA had more lines of code with FLAME GPU 2 having a higher cyclomatic complexity statistic. The data obtained can be very helpful for MASS CUDA library developers showing which features to maintain in future updates. Including MASS CUDA’s ability to store pointers of defined classes while FLAME GPU 2 is limited to primitive types. This data in combination with data from other benchmarks will be used as a guide for the future development of the MASS CUDA library ensuring necessary features aren’t overlooked and the library continues to improve."
+    },
+    {
+      "time": "2:00 PM - 2:15 PM",
+      "projectId": "csse-4-200",
+      "title": "Writing Analysis: An Editing Helper",
+      "studentName": "Charlie Li",
+      "studentMajor": "CSSE",
+      "projectType": "Individual Project",
+      "facultyAdvisor": " Dr. Robert Dimpsey",
+      "section": 4,
+      "poster": "./posters/csse/charlie_li_poster.png",
+      "abstract": "For my capstone, I created a website that takes in a piece of writing, analyzes its structure, and returns various useful statistics that can inform the user on spots of improvement. There are three main features. First, highlighting each word, sentence fragment, sentence, or paragraph, and color coding based on length. Second, highlighting duplicate words that appear in close proximity to each other. Third, a series of graphs that display these statistics.\n\nThese features all seek to point out mistakes that may be hindering the flow of the piece. These are subjective rules. They are beneficial to consider, but not concrete, and thus more difficult to detect. Additionally, even when expressly looking for mistakes, it is hard to find them. For this reason, a wide variety of editing tools can be useful to view a work from a different perspective or with ‘fresh eyes.’ Moreover, while there are a great number of word processors that offer some editing help, much of it is limited to basic spelling and grammar checks. Websites that do offer statistical analysis of a piece of writing do so in a way that makes it difficult to visualize which segments exactly should be edited. My capstone is immediately helpful in its visual and color-coded nature, allowing for instantaneous identification.\n\nThe project that I created is a useful tool that can help a writer of almost any kind in their editing process. It is quick, and provides helpful data in a way that makes it easy to apply to a project. For these reasons, it has the potential to assist a great number of people for a great variety of undertakings."
+    },
+    {
+      "time": "2:15 PM - 2:30 PM",
+      "projectId": "csse-4-215",
+      "title": "Costco",
+      "studentName": "Lawrence Isle",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or Job Opportunity",
+      "facultyAdvisor": " Dr. Brent Lagesse",
+      "section": 4,
+      "poster": "./posters/csse/lawrenceIsla_poster.png",
+      "abstract": "For my capstone, I completed a 12-week internship at Costco under their Application Security team which is responsible for the security of software applications within Costco.The team is responsible for identifying vulnerabilities and supporting developers with vulnerability remediation, guiding development teams through secure coding practices, and enforcing policies that bring security earlier in the software development lifecycle through the “Shift Left” initiative. \n\n During my internship, I learned of a few key challenges the team was focusing on. These challenges were remediation, innovation, and automation. In regards to remediation, manual remediation was slow and large, complex codebases made the process slower and more difficult. With innovation, my team’s goal was to adopt new technologies such as AI in order to foster a culture of keeping pace with emerging technology. Lastly, automation was focused on in order to boost efficiency by reducing manual effort and minimizing errors. These challenges are what I focused on addressing when working on my different projects. With the projects detailed in my capstone poster, I was able to automate workflows that saved time for my team’s senior analyst as well as developers across the organization, drive innovation by utilizing AI and creating documentation to improve our AI Security posture, and improve the process of remediation by utilizing the two elements of automation and innovation."
+    },
+    {
+      "time": "2:30 PM - 2:45 PM",
+      "projectId": "csse-4-230",
+      "title": "Yeast Analysis Tool",
+      "studentName": "Nicolas Gioanni",
+      "studentMajor": "CSSE",
+      "projectType": "Faculty Research",
+      "facultyAdvisor": " Dr. Brent Lagesse",
+      "section": 4,
+      "poster": "./posters/csse/nicolas_gioanni_poster.png",
+      "abstract": "For my capstone project, I converted an existing Python-based yeast cell analysis tool into a fully functional web application using Django. The original tool required researchers to manually run scripts in an IDE, making it difficult for those without programming experience. This process was slow, error-prone, and took time away from actual research. To fix this, I developed a web-based version that allows researchers to upload and process images through a browser without needing to run code manually. \n\nThe goal of this project was to replace the script-based tool with a web application that maintains the same functionality while being easier to use. The previous version required users to manually input file paths and execute scripts, making analysis difficult to standardize. By transitioning to a web-based platform, all computations now run automatically in the background, allowing researchers to complete tasks through a simple interface with minimal setup. Django was chosen for its ability to handle large datasets, manage users, and integrate with image processing tools.\n\nI built the entire front-end UI, ensuring it was simple and easy to use. I also improved the backend to handle multiple image processing, eliminating the need for step-by-step manual analysis. Key features I implemented include wavelength extraction to separate fluorescence channels, automated detection of nuclei and fluorescence markers for intensity measurement, statistical calculations, and backend optimizations to speed up processing and remove unnecessary computations. The tool also includes adjustable parameters, allowing researchers to customize analysis settings.\n\nThe Yeast Analysis Tool is now nearly complete, with all core features implemented. Researchers at the University of Utah tested the tool and are happy with the progress. Instead of running scripts manually, they can now upload images, extract fluorescence wavelengths, and analyze yeast cells directly through the web interface. This transition removes technical barriers, allowing researchers to focus on their experiments rather than troubleshooting software. By making the tool web-based, it ensures long-term usability, allowing future researchers to continue using and improving the tool without requiring programming expertise. Through this project, I gained experience in software optimization, usability design, and real-world problem-solving while developing a tool that directly benefits scientific research."
+    },
+    {
+      "time": "2:45 PM - 3:00 PM",
+      "projectId": "csse-4-245",
+      "title": "ISI INC AMERICA",
+      "studentName": "Chloe Tang",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or Job Opportunity",
+      "facultyAdvisor": " Dr. Brent Lagesse",
+      "section": 4,
+      "poster": "./posters/csse/chloe_tang_poster.png",
+      "abstract": "This project is a REST Framework-based data cleansing microservice that ensures high-quality and reliable data for applications. It provides APls for cleansing raw data by fixing errors, handling missing values, removing duplicates, and normalizing formats. Key features include validation against customizable rules, data enrichment, and potential batch processing for large datasets. The service integrates with AWS S3 for storage and uses many endpoints like /cleanse/, /validate, and /insights/ for interaction. Designed for scalability, it supports enterprise data management, machine learning preprocessing, and basic ETL pipelines. With flexible configuration and cloud-ready deployment, it streamlines data preparation for businesses and developers seeking efficiency and accuracy in data workflows . As a team member, I actively contributed to testing the system to ensure its stability and performance. I played a key role in identifying and resolving critical bugs, improving the overall reliability of the service. Additionally, I assisted in successfully deploying the program, ensuring it could run smoothly in a live production environment. Through my contributions and the collaborative efforts of the entire team, the product was successfully deployed and is now operating effectively in a live production environment， so I helped the team achieve a stable and fully functional product that now operates effectively online."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+    "presentations": [
+        {
+            "time": "8:05 AM - 8:20 AM",
+            "title": "Assessment of Rearing Strategies for an Endangered Salmon Population Through Otolith Analysis",
+            "studentName": "Vaibhav Pai\n\nGeoffrey Tong",
+            "studentMajor": "Biology (BS)\n\nBiology (BS)",
+            "facultyAdvisor": "Dr. Jeff Jensen",
+            "section": 1,
+            "poster": "./posters/bio/vaibhav_geoffrey_slide.png"
+        },
+        {
+            "time": "8:20 AM - 8:40 AM",
+            "title": "Application of Environmental DNA Analysis for the Conservation of Endangered Kokanee Salmon",
+            "studentName": "Hannah Heilman\n\nLola See",
+            "studentMajor": "Biology (BS)\n\nBiology (BS)",
+            "facultyAdvisor": "Dr. Jeff Jensen",
+            "section": 1,
+            "poster": "./posters/bio/hannah_lola_slide.png"
+        },
+        {
+            "time": "8:40 AM - 9:00 AM",
+            "title": "Emergence & Divergence of Key Innovation Pharyngognathy",
+            "studentName": "Grant Carter\n\nSkyler Velez",
+            "studentMajor": "Biology (BS)\n\nBiology (BS)",
+            "facultyAdvisor": "Dr. Jeff Jensen",
+            "section": 1,
+            "poster": "./posters/bio/grant_carter_skyler_velez_slide.png"
+        },
+        {
+            "time": "9:05 AM - 9:25 AM",
+            "title": "Using CRISPRi to Generate a Wnk Kinase Knockdown Mutant",
+            "studentName": "Christina Erfan\n\nKamal Kaur\n\nExavier Ngo\n\nAndy Khai Tat",
+            "studentMajor": "Biology (BS)\n\nBiology (BS)\n\nBiology (BS)\n\nBiology (BS)",
+            "facultyAdvisor": "Dr. Han-Wei Shih",
+            "section": 2,
+            "poster": "./posters/bio/andy_tat_tina_erfan_kamal_kaur_slide.jpg"
+        },
+        {
+            "time": "9:25 AM - 9:45 AM",
+            "title": "WNK Kinase Knockdown Morpholino Oligos",
+            "studentName": "Yoni Damsa\n\nMichael LeCoque\n\nSavannah Mae Lucero\n\nAdelle Nolan",
+            "studentMajor": "Biology (BS)  |  Psychology (BA)\n\nBiology (BS)\n\nBiology (BS)\n\nBiology (BS)",
+            "facultyAdvisor": "Dr. Han-Wei Shih",
+            "section": 2,
+            "poster": "./posters/bio/adelle_michael_lecoque_savannah_lucero_yoni_slide.png"
+        },
+        {
+            "time": "9:45 AM - 10:05 AM",
+            "title": "Investigating WNK KINASE Interactions with its Phosphorylatyion Effectors Using Nanobit Technology",
+            "studentName": "Adrian Eccleston\n\nAlyssa Garcia\n\nAsiya Ibrahim\n\nSahar Nabizai",
+            "studentMajor": "Pre-Major\n\nBiology (BS)\n\nBiology (BS)\n\nBiology (BS)",
+            "facultyAdvisor": "Dr. Han-Wei Shih",
+            "section": 2,
+            "poster": "./posters/bio/alyssa_asiya_adrian_sahar_slide.png"
+        },
+        {
+            "time": "10:10 AM - 10:40 AM",
+            "title": "Moss Growth on Different Substrates",
+            "studentName": "Nikki Richelle Caffrey \n\nKate Manalo \n\nHalayna Moyer \n\nAshlee Rundle \n\nYaaziniah Saleem \n\nDane Smith ",
+            "studentMajor": "Biology (BS)\n\nBiology (BS)\n\nBiology (BS)\n\nBiology (BS)\n\nBiology (BS)\n\nBiology (BS)",
+            "facultyAdvisor": "Dr. Cynthia Chang",
+            "section": 3,
+            "poster": "./posters/bio/nikki_kate_halayna_ashlee_yaaziniah_dane_slide.jpg"
+        }
+    ]
+}

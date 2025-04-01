@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSSE - Capstone Presentations Winter 2025</title>
+    <link rel="stylesheet" href="css/presentations.css">
+    <link rel="stylesheet" href="css/uw-button.css">
+    <link rel="stylesheet" href="css/multiple-rooms.css">
+    <link rel="stylesheet" href="css/homepage.css">
+    <script src="https://kit.fontawesome.com/89bc5abcf1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- ----------------------- Side nav bar -------------------------- -->
+    <div id="mySidenav" class="sidenav">
+        <div class="project-index-heading">
+            <h1>Project Index</h1>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        </div>
+        <div class="topnav">
+            <input type="text" id="searchBar" placeholder="Search projects...">
+        </div>
+    </div>
+    <!-- --------------------------------------------------------------- -->
+
+    <div id="main">
+        <header>
+            <section class="uwb-logo">
+                <a href="https://www.uwb.edu/stem"><img src="images/web-white-left-school-signature-uw-bothell.png"
+                        alt="UW Bothell School of STEM Logo"></a>
+            </section>
+    
+            <nav class="align-center" id="dawgdrops">
+                <div class="dawgdrops-inner container">
+                    <ul class="dawgdrops-nav" id="menu-brand-menu">
+    
+                        <li class="dawgdrops-item">
+                            <a href="index.html" id="101" title="Home Page">Home Page</a>
+                        </li>
+    
+                        <li class="dawgdrops-item">
+                            <a class="dropdown-toggle" href="#" id="102" title="Biological Sciences">Biological Sciences</a>
+    
+                            <ul class="dawgdrops-menu dawgdrops-menu-em" id="menu-102">
+                                <li>
+                                    <a href="./biological-sciences.html" title="BIO">Biology</a>
+                                </li>
+                            </ul>
+                        </li>
+    
+                        <li class="dawgdrops-item">
+                            <a class="dropdown-toggle" href="#" id="103" title="Computing & Software System">Computing &
+                                Software Systems</a>
+    
+                            <ul class="dawgdrops-menu dawgdrops-menu-em" id="menu-104">
+                                <li>
+                                    <a href="./csse.html" title="CSSE">Computer Science & Software Engineering</a>
+                                </li>
+                                <li>
+                                    <a href="./applied-computing.html" title="ACMPT">Applied Computing</a>
+                                </li>
+                            </ul>
+    
+                        </li>
+    
+                        <li class="dawgdrops-item">
+                            <a class="dropdown-toggle" href="#" id="102" title="Engineering">Engineering</a>
+    
+                            <ul class="dawgdrops-menu dawgdrops-menu-em" id="menu-104">
+                                <li>
+                                    <a href="./engineering.html" title="ENG">Engineering</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dawgdrops-item">
+                            <a class="dropdown-toggle" href="#" id="102" title="Mathematics">Mathematics</a>
+    
+                            <ul class="dawgdrops-menu dawgdrops-menu-em" id="menu-104">
+                                <li>
+                                    <a href="./mathematics.html" title="MATH">Mathematics</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dawgdrops-item">
+                            <a class="dropdown-toggle" href="#" id="102" title="Physics">Physical Sciences</a>
+    
+                            <ul class="dawgdrops-menu dawgdrops-menu-em" id="menu-104">
+                                <li>
+                                    <a href="./physics+chemistry.html" title="PHYS">Physics & Chemistry</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    
+            <div class="black-box">
+                <h1>Winter 2025 Capstone & Symposium</h1>
+            </div>
+    
+
+        </header>
+
+
+        <h2>Computer Science & Software Engineering</h2>
+        <p class="date"> March 21, 2025 </p>
+
+        <p class="text">
+            Welcome to the Winter quarter Capstone Colloquium.<br /><br />
+
+            <b>CSS Students:</b> All CSS students must attend a CSS Colloquium before they complete their own capstone
+            requirement. To document that you attended this colloquium, fill out the <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdBPiPNW731XRM9f3R8J6p20wgRUN_XmjeSke_KmNID5Uoz-w/viewform?gxids=7628">Colloquium
+                Attendance form</a>.<br /><br />
+            <b>Poster Sessions: </b>2<sup>nd</sup> floor ARC (Activities & Recreation Center) | 11:00 AM - 12:00 PM <br /><br />
+            <b>Oral Presentations: </b> UW 1 (Founders Hall) | 1:00 PM to 3:00 PM </br>
+            <br />There are five rooms with students presenting at the same time. <br />Click on one of the buttons
+            below to see presentations in that room.<br />
+        </p>
+
+        <a class="uw-btn" id="sideNavBtn" onclick="sideNavEvent(this.id)">See All Projects</a>
+        <!-- <div class="space"></div>
+    <div class="space"></div> -->
+
+        <!-- <a class="uw-btn" id="sideNavBtn" href="https://zoom.us/" target="_blank">Zoom room 1</a> -->
+
+        <div class="space"></div>
+
+        <section class="zoom-room-buttons">
+            <button id="room-1-button" class="room-button" data-section="room-1-presentations" type="button">UW1
+                020</button>
+            <div class="vertical-line"></div>
+
+            <button id="room-2-button" class="room-button" data-section="room-2-presentations" type="button">UW1
+                110</button>
+            <div class="vertical-line"></div>
+            <button id="room-3-button" class="room-button" data-section="room-3-presentations" type="button">UW1
+                120</button>
+            <div class="vertical-line"></div>
+
+            <button id="room-4-button" class="room-button" data-section="room-4-presentations" type="button">UW1
+                210</button>
+            <div class="vertical-line"></div>
+
+            <button id="room-5-button" class="room-button" data-section="room-5-presentations" type="button">UW1
+                221</button>
+
+
+
+
+                
+
+
+        </section>
+
+        <section id="room-1-presentations" class="room"></section>
+        <section id="room-2-presentations" class="room hide"></section>
+        <section id="room-3-presentations" class="room hide"></section>
+        <section id="room-4-presentations" class="room hide"></section>
+        <section id="room-5-presentations" class="room hide"></section>
+ 
+
+        <div class="space"></div>
+    </div>
+
+
+
+    <script type=text/javascript src="js/jquery-3.6.0.min.js"></script>
+    <script type='text/javascript' src="js/multiple-rooms.js"></script>
+    <script type='module' src="js/csse.js"></script>
+    <script type='module' src="js/structure.js"></script>
+</body>
+
+</html>

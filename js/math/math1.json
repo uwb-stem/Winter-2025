@@ -1,0 +1,31 @@
+{
+    "math": [
+        {
+            "time": "0:00 AM - 0:00 AM",
+            "projectId": "project id",
+            "title": "title",
+            "studentName": "student name",
+            "studentMajor": "student major",
+            "facultyAdvisor": "faculty advisor",
+            "posterLink": "./posters/placeholder/comingsoon.jpg"
+        },
+        {
+            "time": "0:00 AM - 0:00 AM",
+            "projectId": "project id",
+            "title": "title",
+            "studentName": "student name",
+            "studentMajor": "student major",
+            "facultyAdvisor": "faculty advisor",
+            "posterLink": "./posters/placeholder/comingsoon.jpg"
+        },
+        {
+            "time": "0:00 AM - 0:00 AM",
+            "projectId": "project id",
+            "title": "title",
+            "studentName": "student name",
+            "studentMajor": "student major",
+            "facultyAdvisor": "faculty advisor",
+            "posterLink": "./posters/placeholder/comingsoon.jpg"
+        }
+    ]
+}

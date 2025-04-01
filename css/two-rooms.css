@@ -1,0 +1,135 @@
+#main {
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.zoom-room-buttons {
+    font-family: OpenSans;
+    display: flex;
+    margin: auto;
+    margin-bottom: 40px;
+    text-align: center;
+    justify-content: space-between;
+    width: 600px;
+    /* background-color: aqua; */
+}
+
+.zoom-room-buttons button {
+    height: 40px;
+    font-size: 20px;
+    border-width: 0.5px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.project-index-button {
+    background-color: #EFEDE4;
+    border: none;
+}
+
+.project-index-button:hover {
+    text-decoration: underline;
+}
+
+.vertical-line {
+    border: 1px solid black;
+    height: 45px;
+    margin: auto;
+}
+
+.hide {
+    display: none;
+}
+
+/* .room {
+    transition: all 1s;
+} */
+
+.chosen {
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 4px;
+    opacity: 1;
+}
+
+.notChosen {
+    border: none;
+    background-color: #EFEDE4;
+    /* opacity: 0.5; */
+    color:hsl(0, 0%, 60%);
+}
+
+.notChosen:hover {
+    opacity: 1;
+    /* border: #888; */
+    text-decoration: underline;
+}
+
+/* -------------------- Side nav bar -------------------------- */
+/* The side navigation menu */
+.sidenav {
+    height: 100%;
+    /* margin-top: 175px; */
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #EFEDE4;
+    overflow-x: hidden;
+    transition: transform 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    /* padding-top: 60px; */
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'EncodeSans-regular';
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: rgba(0, 0, 0, 0.473);
+  }
+  
+  .sidenav .closebtn {
+    /* position: absolute; */
+    padding: 0 0 0 0;
+    margin-top: -5px;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    /* background-color: aquamarine; */
+  }
+  
+  @media screen and (max-height: 450px) {
+    /* .sidenav {padding-top: 15px;} */
+    .sidenav a {font-size: 18px;}
+  }
+
+  .project-index-heading {
+    display: flex;
+    background-color: #C4C4C4;
+    justify-content: space-between;
+    height: 40px;
+    padding: 5px 10px;
+  }
+
+  .project-index-heading h1 {
+    font-family: 'EncodeSans-bold';
+    font-size: 25px;
+    /* background-color: antiquewhite; */
+    margin: 2px 0 10px 0;
+  }
+
+  .side-room-number {
+    background-color: #B7A57A;
+    font-family: 'EncodeSans-medium';
+    font-size: 20px;
+    height: 40px;
+    padding: 5px 0 0 10px;
+    padding-bottom: 0px;
+  }

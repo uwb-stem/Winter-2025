@@ -1,0 +1,85 @@
+.abstract-heading {
+    font-family: 'EncodeSans-bold';
+    margin: 80px 25% 0 10%;
+    font-size: 22px;
+}
+
+.abstract-heading h2 {
+    font-family: 'EncodeSans-regular';
+    /* margin: 80px 10% 0 10%; */
+    margin: -10px 0 0 0;
+    text-align: left;
+    font-size: 25px;
+}
+  
+.abstract-heading figure {
+    background-image: url(https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/98/2014/10/07214122/Bar_RtAngle_7502.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 300px;
+    margin-left: -3px;
+}
+
+.abstract-text {
+    margin-top: -35px;
+    margin-bottom: 50px;
+    text-align: left;
+    /* font-family: 'EncodeSans-light'; */
+}
+
+figure {
+    margin: 20px 12% 20px 12%;
+}
+
+.shadow {
+    margin-top: 60px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.281);
+}
+
+/* Poster image */
+figure img {
+    border: 1px solid gray;
+    display: block;
+    margin: auto;
+    height: auto;
+    max-width: 100%;
+    /* margin: 20px 20px 20px 20px; */
+}
+
+.full-poster-btn {
+    list-style-type: none; /* Remove bullets */
+    float: right;
+    margin-right: 12%;
+    display: flex;
+    align-content: space-between;
+    font-family: 'EncodeSans-medium';  
+    border: 2px solid hsla(0, 0%, 21%, 0.377);
+    border-radius: 10px;
+    width: 160px;
+    height: 30px;
+    padding: 10px 4px 0 11px;
+    background-color: #fff;
+    font-size: 15px;
+    color: #4b2e83;
+}
+
+.full-poster-btn a a:active a:visited {
+    text-decoration: none;
+}
+
+.full-poster-btn:hover {
+    text-decoration: underline;
+    color: #b7a57a;
+}
+
+.full-poster-btn:hover {
+    text-decoration: underline;
+    color: #b7a57a;
+}
+
+/* .full-poster-btn li p {
+    margin-top: -10px;
+    font-size: 13px;
+    color: rgb(124,124,124);
+} */

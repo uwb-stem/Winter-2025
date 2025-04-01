@@ -1,0 +1,112 @@
+{
+  "presentations": [
+    {
+      "time": "1:00 PM - 1:15 PM",
+      "projectId": "csse-1-100",
+      "title": "SLEEPARISE - A Gamefield Alarm Clock App",
+      "studentName": "Antony Holshouser",
+      "studentMajor": "CSSE",
+      "projectType": "Individual project",
+      "facultyAdvisor": " Dr. Wooyoung Kim",
+      "section": 1,
+      "poster": "./posters/csse/antony_holshouser_poster.png",
+      "abstract":"SleepArise, at its core, is an alarm clock app that requires users to play games to turn it off. With a compilation of 8 games the user can choose from, a vast array of alarm features, and dedicated routine reminders and to-do lists, SleepArise is an app that provides a revolutionary awakening experience that isn't developed elsewhere.\n\nSleepArise was developed to create a more accessible and feature-rich alarm clock app. A similar, popular app costs 6x as much as SleepArise, despite SleepArise providing unique features that current market leaders don't have. This includes features such as (1) Flashlight toggling mid-alarm, (2) custom haptic vibrations, (3) animated alarm backgrounds, (4) alarms forcing a user-defined system brightness, (5) automatic routine to-do lists and reminders, and more.\n\nThe product is a published, competitive iOS alarm clock app that passed Apple's 14,000+ word App Review Guidelines, which is enforced by an Apple developer upon submission. Safety, Performance, Business, Design, and Legal issues were thoroughly inspected. Furthermore, a small one-page marketing website and an advertisement poster were created.\n\nSleepArise's dominant competitors are made by multiple engineers over many years. SleepArise was developed by a single student in less than 3 months. The significance of this project is two-fold: (1) breaking the chokehold that current authoritative iOS apps have on the Alarm Clock market to provide a more fair, affordable experience to users and (2) a demonstration to CSS students that it is possible to compete against bigger companies, even as a solo developer."
+    },
+    {
+      "time": "1:15 PM - 1:30 PM",
+      "projectId": "csse-1-115",
+      "title": "Network Motif Site",
+      "studentName": "Ilya Vaschillo",
+      "studentMajor": "CSSE",
+      "projectType": "Faculty research",
+      "facultyAdvisor": " Dr. Wooyoung Kim",
+      "section": 1,
+      "poster": "./posters/csse/ilya_vaschillo_poster.jpg",
+      "abstract": "Network Motif Site, a project written in python as a web application implementing a network library, finds and reports network motifs. This site is useful for detecting reoccurring proteins in a graph of protein-on-protein interactions. \n\n Short reoccurring patterns of interactions could have a biological significance and as a result will be used by computer scientists and biologists to do further research in genetics, proteomics, and bioinformatics. Existing tools such as Nemo App and Fanmod are outdated and not visually supported. \n\nUtilizing the popular networkx, pyvis, and streamlit python libraries allowed for enhanced visuals and educational content, as well as opening the door for future updates and modulation. Using the nauty and traces: labelg algorithm and writing the algorithm for Linux allowed for a quick subgraph labeling. By creating and writing the site in an object-oriented layered method, individual parts can be fined tuned to the future developer’s needs. \n\nThe site is a streamlined input and output that users will find more navigable and usable compared to other alternatives. Furthermore, the site explains the multi-step algorithm to any users that have a poor understanding of the algorithm behind the user interface. The result is an interdisciplinary tool to connect two different fields into one, made to stand the test of time."
+    },
+    {
+      "time": "1:30 PM - 1:45 PM",
+      "projectId": "csse-1-130",
+      "title": "Enhancing AAC Technology: Refining an iOS-Based Communication App for Non-Verbal Individuals and Children with ASD",
+      "studentName": "Eugene (Chun-Yu) Chan",
+      "studentMajor": "CSSE",
+      "projectType": "Faculty research",
+      "facultyAdvisor": " Dr. Annuska Zolyomi",
+      "section": 1,
+      "poster": "./posters/csse/eugene_chan_poster.png",
+      "abstract": "For individuals with speech impairments and non-verbal children with autism (ASD), communication is often a daily challenge, expressing their thoughts, needs, or emotions may require alternative methods beyond spoken language. Many rely on Augmentative and Alternative Communication (AAC) tools to assist their communication, but these systems often present usability barriers such as cognitively overwhelming, hard to personalize, and difficulty to convey non-verbal cues like gestures or tone. These factors led to a low adoption and retention rates for these tools, underscoring the need for more adaptable, user-centered solutions.\n\nTo address these limitations, this project builds on previous research to refine and enhance an high-fidelity prototype of an existing iOS-based AAC application, improving usability, accessibility, and expanding emergency communication options to better align with the needs of both primary users (AAC users) and secondary users (caregivers, therapists, and family members). The development process follows a user-centered approach, starting with a user journey map to evaluate how individuals interact with the system and identify which features require refinement. We also held weekly meeting to review implemented changes, discuss improvements, and ensure that design decisions remain stakeholder-focused.\n\n Key Refinements & Features \n\n    - Roomview enhancement allow users to manually switch between different time-based views, improving context aware communication. Future iterations will explore iBeacon integration to automate these transitions based on location.\n\n- Improved text-to-speech integration for the whole app to ensure smoother interactions across different app views and also making it easier for future developer to maintain and scale. \n\n- Refined emergency messaging to deliver faster and more accurate communication in urgent situations. \n\n - A pain level indicator that helps users express discomfort more effectively.\n\n - LongPressGesture implementation enhances vocabulary selection by enabling popup menus for alternative word choices. For example, pressing 'I' brings up options like 'me,' 'myself,' 'mine,' and 'my', reducing the need to navigate a full vocabulary list and improving efficiency.\n\nThis project advances AAC technology by refining an existing high-fidelity prototype to improve usability, accessibility, and emergency communication. By applying user-centered design and iterative development, it bridges communication gaps for non-verbal individuals. A future usability test will gather additional stakeholder feedback to further enhance the app."
+    },
+    {
+      "time": "1:45 PM - 2:00 PM",
+      "projectId": "csse-1-145",
+      "title": "Team Up!",
+      "studentName": "Dan Nguyen",
+      "studentMajor": "CSSE",
+      "projectType": "Faculty research",
+      "facultyAdvisor": " Dr. Annuska Zolyomi",
+      "section": 1,
+      "poster": "./posters/csse/dan_nguyen_poster.png",
+      "abstract": "Team Up! is a web application utilizing a machine-learning algorithm taking in students’ personality types based on DISC assessments, levels of extraversion and introversion, and various skills to create balanced and collaborative teams.\n\nMany students with social anxiety have expressed discomfort at forming teams in addition to unfulfilling and frustrating communication with team members who conflict with them in terms of personality. This application aims to relieve stress and fear when forming teams and help track team progress for teachers and students, including those with social anxiety.\n\nPrior research to identify and scale issues was conducted in the form of an online survey and participants were passively recruited via flyers. From the survey, an essay and presentation were made summarizing key findings. The survey allowed us to conclude how judgement and rejection are the main factors creating fear in students with social anxiety, allowing user personas and scenarios to help guide the direction of the app. These user personas and scenarios formed the basis of functional and technical specifications for current and future students to refer to while working on the application.\n\nThe front end of the website was developed in Next.js for its routing and path capabilities and utilized third-party tools for authentication and data storage with Firebase for security and fast storage and retrieval. UI was implemented based on design drafts to assess the feasibility and practicality of the proposed features. A semi-functional prototype was created to evaluate features, test integration of third-party tools, and adjust UI elements. The prototype will be left as a basis for future students to branch from.\n\nThrough this capstone experience, I learned how applications are not simply about coding and require research and extensive brainstorming beforehand. I was able to work on my project management and research skills while finding a specific direction of where I want to go in my computer science career: website development."
+    },
+    {
+      "time": "2:00 PM - 2:25 PM",
+      "projectId": "csse-1-200",
+      "title": "Empowering Focus With Smart Technology: A Task Management App for Adults with Attention Disorders",
+      "studentName": "Jamie (Yeeun) Choi",
+      "studentMajor": "CSSE",
+      "projectType": "Faculty research",
+      "facultyAdvisor": " Dr. Annuska Zolyomi",
+      "section": 1,
+      "poster": "./posters/csse/jamie_choi_poster.png",
+      "abstract": "During my capstone project as a team member, I focused on creating a specialized task management application to help individuals with ADHD overcome common challenges, such as difficulty initiating tasks, maintaining focus, and organizing daily responsibilities. The project employs a user-centric design that prioritizes easy access and a simplified interface, reducing cognitive overload and minimizing frustration, so that users can more easily initiate and complete tasks.\n\nTo accomplish this, I conducted market research and participated in iterative prototyping sessions. My contributions include designing an interactive prototype and implementing the core screens for the creating and editing tasks. Key features such as prioritized reminders, gamified progress tracking, and social accountability options were developed to streamline scheduling and enhance task completion. Although more comprehensive user surveys are still being analyzed, internal tests suggest that the application is both intuitive and responsive. \n\nKey research elements including detailed user analysis and the development of personas, were also performed by my team members. Their efforts guided our design decisions based on established ADHD literature and existing productivity tools. The significance of this work lies in its focus on reducing barriers to task initiation and completion through a straightforward, accessible user interface. By eliminating unnecessary complexity, the application aims to support individuals with ADHD in achieving greater daily productivity. Future enhancements will incorporate further user feedback to refine the interface and extend functionality, ensuring that the solution continues to meet its goal of easing everyday task management challenges. "
+    },
+    {
+      "time": "2:15 PM - 2:30 PM",
+      "projectId": "csse-1-215",
+      "title": "Enhancing Task Management for Individuals with ADHD: A Digital Solution",
+      "studentName": "Quynh Lam",
+      "studentMajor": "CSSE",
+      "projectType": "Faculty research",
+      "facultyAdvisor": " Dr. Annuska Zolyomi",
+      "section": 1,
+      "poster": "./posters/csse/quynh_lam_poster.png",
+      "abstract": "Attention disorders, such as ADHD, can significantly impact an individual's ability to manage daily tasks, maintain focus, and prioritize responsibilities effectively. While various interventions exist, including pharmacotherapy and cognitive behavioral therapy, digital solutions for task management remain underexplored in comparison to other mental health interventions. This capstone project contributes to the design, development, and evaluation of a mobile application aimed at assisting adults with attention difficulties in organizing their daily tasks. The application incorporates features tailored to this user group, such as prioritizing tasks, breaking larger tasks into smaller steps, and providing psychoeducational resources to reinforce positive habits and strategies. The goal is to bridge the gap between traditional interventions and digital task management solutions.\n\nThis project is a collaboration with Professor Zolyomi’s IDEA Lab (Interaction Design for Education and Accessibility) and is led by MS CSSE student Sarah Marshall. Following an agile methodology, the development process incorporates iterative design and feedback loops to refine the application. Over a 20-week period, I worked alongside a team of three to four students, progressing through research, analysis, brainstorming, design, and initial implementation phases. My contributions included reviewing and analyzing existing ADHD-related task management applications, assisting in user scenario development, participating in UI/UX brainstorming sessions, and setting up the development environment using Android Studio and Kotlin. Additionally, I contributed to database research, user interview processes—such as designing recruitment flyers and interview questions—feature prioritization, and implementing key functionalities to enhance task organization and user engagement in our initial prototype.\n\nThe current stage of the project involves building a functional minimum viable product (MVP) with essential task management capabilities, including task creation, editing, reminders, and categorization. The long-term vision includes implementing a cloud database for data collection and analysis, enhancing gamification features, and expanding to iOS platforms. The significance of this project lies in its potential to provide a structured, accessible, and research-backed digital tool for individuals with attention disorders, ultimately improving their productivity and daily task management. Although the project will continue beyond my graduation, I will remain involved to help refine the app into a comprehensive, user-centered tool."
+    },
+    {
+      "time": "2:30 PM - 2:45 PM",
+      "projectId": "csse-1-230",
+      "title": "SIGNTALK",
+      "studentName": "Harshitha Komaravelli",
+      "studentMajor": "CSSE",
+      "projectType": "Faculty research",
+      "facultyAdvisor": " Dr. Annuska Zolyomi",
+      "section": 1,
+      "poster": "./posters/csse/harshitha_komaravelli_poster.jpg",
+      "abstract": "SignTalk is a software application designed to bridge communication gaps between Deaf and Hard of Hearing individuals and those who do not understand American Sign Language (ASL). SignTalk has two core functionalities: an ASL Translator, using real-time gesture recognition to convert sign language into text, and an interactive multimedia ASL library to support learning and practice.\n\nThe goal of the project was to develop a easy to use user-friendly solution that facilitates effective communication and promotes accessibility for the Deaf and Hard of Hearing community. The implementation involved training a custom-built convolutional neural network (CNN) model using TensorFlow and Keras. This CNN model was optimized to accurately recognize ASL gestures captured via a webcam in real-time. OpenCV was utilized for preprocessing and image analysis tasks, enhancing the system's ability to detect hand movements quickly and accurately.\n\nThroughout the development process, we also placed an emphasis on creating an intuitive user interface, allowing users to seamlessly transition between translation and learning features. The ASL library is designed so that a user can search the library on how to sign a word. When the word is found the user is presented with a video showing how to perform the sign.\n\nTesting and evaluation of the system demonstrated promising results but with room for future improvement. The system can recognize the entire alphabet as well as some stationary signs. Further testing highlighted the project's strengths in ease of use, responsiveness, and practical applicability. While we can identify signs, we want to be able to identify complex signs and translate sentences in real time.\n\nOverall, this project significantly contributes toward accessible technology by merging translation functionality with educational tools. It addresses critical communication barriers faced by the Deaf and Hard of Hearing communities, fostering increased inclusion and awareness. Future development will focus on expanding the library content, refining translation accuracy through enhanced machine learning algorithms, and integrating user feedback to continuously improve usability and performance."
+    },
+    {
+      "time": "2:45 PM - 3:00 PM",
+      "projectId": "csse-1-245",
+      "title": "SignTalk",
+      "studentName": "Nithisha Sathishkumar",
+      "studentMajor": "CSSE",
+      "projectType": "Faculty research",
+      "facultyAdvisor": " Dr. Annuska Zolyomi",
+      "section": 1,
+      "poster": "./posters/csse/nithisa_sathishkumar_poster.png",
+      "abstract": "Introduction\n\nSign language is a crucial communication method for the deaf and hard-of-hearing community, yet many individuals who do not know sign language face challenges in interacting with sign language users. This communication barrier can lead to social isolation and limited accessibility in various settings, including workplaces, healthcare, and education. The goal of our capstone project, SignTalk, is to bridge this gap by developing an AI-powered mobile application that translates sign language into text in real-time and helps users learn American Sign Language (ASL) through an integrated ASL video library.\n\n\nMethodology\n\nTo develop this solution, we first collected and processed sign language datasets, including research articles and interview insights, to build a robust training set. We incorporated OpenCV for real-time hand tracking and TensorFlow Lite for efficient on-device inference. The app is developed using React Native and Python to ensure smooth integration with both iOS and Android devices. Using deep learning models, we optimized sign recognition for real-time performance on mobile devices while implementing an extensive ASL library for reference. The mobile application was designed with an intuitive UI/UX, integrating AI models to enhance usability. Additionally, system integration testing crucial role in refining the system for better accuracy and accessibility.\n\n\nResults\n\nOur prototype successfully recognizes and translates a predefined set of ASL signs with high accuracy. The real-time translation capability not only facilitates communication between non-signers and the deaf community but also enables both groups to learn ASL interactively. Early usability testing and user feedback have demonstrated promising results, with positive responses regarding ease of use and translation speed. Additionally, the ASL library provides a structured and accessible way for users to learn sign language at their own pace.\n\n\nConclusion\n\nSignTalk addresses a significant accessibility challenge by making sign language translation more accessible through mobile technology. The application has the potential to improve inclusivity in various sectors, fostering better communication between deaf and hearing individuals. Future work will focus on expanding the model’s vocabulary, improving real-time accuracy, and incorporating multi-language support to enhance usability for a broader audience."
+    },
+    {
+      "time": "3:00 PM - 3:15 PM",
+      "projectId": "csse-1-300",
+      "title": "SoFi",
+      "studentName": "Ian Yang",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or Job Opportunity",
+      "facultyAdvisor": " Dr. Carol Shaw",
+      "section": 1,
+      "poster": "./posters/csse/ian_yang_poster.jpg",
+      "abstract": "SoFi Technologies was originally a student loan startup created by four graduate Stanford Business students in 2011. Now they are a top financial institution in the US, offering a wide financial product suite, including banking, lending, credit cards, investing, insurance, and more. Their customer-driven values alongside their entire platform and online bank offer a one-stop-shop for all financial needs.\n\nFor my internship at SoFi Technologies, I was tasked with designing and developing a SoFi Credit Card export feature for Credit Card members. The system did not provide ways for Credit Card members to download transactions and manage their budget in Microsoft Excel or other spreadsheets. The transactions export feature is a standard functionality offered by other major banks.\n\nThrough constant feedback from various forums and SoFi surveys, we found that the transactions export tool was a highly requested feature within SoFi Credit Card users and was listed as a top 3 detractor in the SoFi Credit Card – meaning it was a top reason as to why some potential customers chose not to use a SoFi Credit Card. \n\nThis feature is a full-stack, end-to-end project that required the design of a new API to retrieve sensitive financial data and upload to the requesting user that fits the industry standard for SoFi customers. This project also called for design and error handling in both frontend and backend, requiring multiple testing methods and rollouts to ensure lack of bugs and full capability of the feature. Now, SoFi credit card users can budget their own expenses at will."
+    }
+  ]
+}

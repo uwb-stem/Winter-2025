@@ -1,0 +1,52 @@
+{
+  "presentations": [
+    {
+      "time": "1:00 PM - 1:15 PM",
+      "projectId": "csse-2-100",
+      "title": "Civilince",
+      "studentName": "Jacob Klein",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or Job Opportunity",
+      "facultyAdvisor": "Dr. Jeffrey Kim ",
+      "section": 2,
+      "poster": "./posters/csse/jacob_klein_poster.png",
+      "abstract": "This project involved developing a health security platform for Civilience, with the goal of promoting health, wellness, and safety. The platform provides tools for users to check in on their well-being and engage with their community. Development focused on creating three components: User Profile, Emotional Health, and Infectious Disease. The Emotional Health and Infectious Disease components include surveys that help users assess their personal situation and view aggregated community data. The User Profile component allows users to manage settings such as their profile picture, username, password, email, groups, and geolocation preferences.\n\nI developed key features for the Infectious Disease and User Profile components, using Civlience’s existing tech stack.. For the Infectious Disease component, I created a screening home page displaying a list of infectious disease surveys using templates created with SurveyJS and integrated with PostgreSQL to store responses. For the User Profile component, I implemented geolocation settings, allowing users to set their registered location, manage custom locations, and track recently visited locations (with permission). Additionally, I helped integrate two-factor authentication, which requires users to enter a code from their email before changing some important settings. Civilience is now closer than ever to being a fully functional platform, but further testing and feedback will be essential in ensuring that the platform is ready for end-users so that we can deliver on our mission of supporting health and wellness."
+    },
+    {
+      "time": "1:55 PM - 2:10 PM",
+      "projectId": "csse-2-155",
+      "title": "7 Star Towing LLC",
+      "studentName": "Ghulam Mohyuddin",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or Job Opportunity",
+      "facultyAdvisor": " Dr. Michael Stiber",
+      "section": 2,
+      "poster": "./posters/placeholder/comingsoon.jpg",
+      "abstract": "Problem Definition:\n\n7StarLogistics LLC, a logistics company, faced inefficiencies in IT asset tracking and help desk support, leading to delays in resolving technical issues and difficulties in managing company-owned devices. Without a structured system, hardware such as computers, phones, and essential IT equipment lacked proper inventory control, increasing the risk of misplaced or unaccounted-for assets. Additionally, employees had no centralized way to log and track IT issues, causing inconsistent response times and inefficiencies, especially with the company’s overseas call center requiring remote support.\n\n\nMethods and Approach:\n\nI used SAP Inventory Management to build a structured asset tracking system in order to overcome these difficulties. This ensured better device tracking, uniform records, and correct data entry. In order to reduce employee downtime, I also created a help desk ticketing system that expedites IT issue tracking, prioritizing, and resolution workflows. In order to improve reporting and reduce errors in manual data entry, I also integrated Google Sheets and Apps Script automation, which increased the effectiveness of IT assistance.\n\n\nResults and Impact\n\nBy guaranteeing that all hardware is accurately tracked and recorded, the initiative greatly increased IT asset visibility and accountability. The help desk system improved support for both local and international teams by introducing a consolidated procedure for issue tracking and cutting down on resolution times. IT operations became more scalable, efficient, and in line with the logistics requirements of the business by introducing automated procedures and structured data entry.\n\n\nSignificance:\n\nFor 7StarLogistics LLC, this project created a scalable IT framework that improved internal support procedures, decreased system outages, and increased operational efficiency. Long-term advantages will come from the organized inventory system and help desk procedures, guaranteeing more efficient logistics operations and dependable IT infrastructure as the business expands."
+    },
+    {
+      "time": "2:10 PM - 2:25 PM",
+      "projectId": "csse-2-210",
+      "title": "Graphitti: Advanced Graph Generation",
+      "studentName": "Jasleen Saini",
+      "studentMajor": "CSSE",
+      "projectType": "Faculty research",
+      "facultyAdvisor": " Dr. Michael Stiber",
+      "section": 2,
+      "poster": "./posters/csse/jasleen_kaur_poster.jpg",
+      "abstract": "Graphitti is a high-performance graph-based simulator designed to represent systems as networks of nodes and edges. It has been employed by the Intelligent Networks Laboratory to support various models, including Biological Neural Network simulations and Next Generation 911 (NG911) emergency systems. The goal of my Advanced Graph Generation research was to enhance Graphitti’s scalability by developing tools that expand its applicability to diverse domains.\n\nA primary contribution of this project is the enhancement of the GraphManager class through templatization and inheritance, allowing for adaptable graph structures tailored to NG911, neural networks, and future applications. By generalizing the GraphManager to support different vertex property types, this work enables the dynamic creation of graph structures that accommodate simulation needs.\n\nAdditionally, this research extends Graphitti’s support for Spike-Timing Dependent Plasticity (STDP) simulations, a key model in computational neuroscience used to study synaptic plasticity and learning. A fully connected graph initialization framework with weighted connections was implemented to manage STDP simulations efficiently while maintaining compatibility with Graphitti’s architecture.\n\nThe significance of my work lies in expanding Graphitti’s utility across multiple domains. By enhancing its graph generation capabilities through modular design, this project enables more adaptable and scalable simulations. These advancements lay the foundation for researchers to leverage Graphitti, fostering innovation in graph-based simulation research."
+    },
+    {
+      "time": "2:25 PM - 2:40 PM",
+      "projectId": "csse-2-225",
+      "title": "DREVOL/Microsoft",
+      "studentName": "Suraj Patel",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or Job Opportunity",
+      "facultyAdvisor": "Dr. Marc Dupuis",
+      "section": 2,
+      "poster": "./posters/csse/suraj_patel_poster.png",
+      "abstract": "Azure Validator’s Console is a terminal-based tool developed to automate the end-to-end process of publishing and validating Windows-based virtual machine builds. During my capstone internship, and project here, I focused on designing and implementing a unified console-based system that integrates resources, monitoring, and resolving specialized “livewire” servers. This project was initiated to address the challenges of repetitively resolving the same bug, managing regression issues between old and new builds, and testing my knowledge and understanding of the capabilities of scripting based automations. Additionally, manually testing and validating customized VM builds often involved certain operations or interactions that the standard CI/CD pipeline did not adequately cover.\n\nThe work involved developing a suite of PowerShell modules—collectively known as AzureProvisioningTools, and later to become a standalone tool—that streamline tasks such as image preparation and creation via ARM templates, comprehensive deployment testing, and bug triage through a single command line. Critical functions were implemented, adapted modern secure authentication using MSI/Entra-ID, to automate log collection with script extensions, facilitate remote script execution for real-time diagnostics, and engage kernel-level tools for remediating bugs. These modules are integrated into a single console, providing a one-stop interface that reduces human intervention and accelerates the debugging and remediation process.\n\nResults from the project demonstrated a significant reduction in error resolution time for some repetitive bugs facing near 0% reproduced rate, enhanced security through role-based access controls, and improved overall system visibility with live log monitoring. The major goal of this project was creating a POC providing automated AI analyzed help that can assist and test in isolation from developers to enhance validity of around-the-clock machines. The tool effectively triaged 13% of reported bugs by correlating live logs with historical MSRC data, paving the way for future AI/ML integrations.\n\nIn conclusion, Azure Validator’s Console not only offers an efficient mechanism for validating and testing configurable virtual machines but also serves as a scalable framework for continuous integration and deployment. The scripting based approach to automate kernel level activities is poised to transform the way developers and testers manage and secure live server environments and evolve their quality of builds."
+    }
+  ]
+}

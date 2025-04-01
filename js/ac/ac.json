@@ -1,0 +1,42 @@
+{
+    "ac": [
+        {
+            "panel": "Topic | Faculty: Dr. Jeffery Kim",
+            "time": "1:20 PM - 1:50 PM",
+            "presentations": [
+                {
+                    "title": "Web Tool for Fantasy Basketball",
+                    "studentName": "Joshua Chow",
+                    "studentMajor": "Applied Computing (B.A.)",
+                    "poster": "./posters/acmpt/joshua_chow_poster.png"
+                },
+                {
+                    "title": "AI in High Schools: Striving for Fairness and Transparency",
+                    "studentName": "Devin Sadorra",
+                    "studentMajor": "Applied Computing (B.A.)",
+                    "poster": "./posters/acmpt/devin_sadorra_poster.png"
+                },
+                {
+                    "title": "EDC (Everyday Carry) Tracker",
+                    "studentName": "Glick Uy",
+                    "studentMajor": " Applied Computing (B.A.)",
+                    "poster": "./posters/acmpt/glick_angelo_uy_poster.png"
+                },
+                
+                {
+                    "title": "Technology Adoption for Farmers",
+                    "studentName": "Mike Francis Vicencio",
+                    "studentMajor": "Applied Computing (B.A.)",
+                    "poster": "./posters/acmpt/mike_vicencio_poster.jpg"
+                },
+
+                {
+                    "title": "Pairwire: from Ingredients to Food",
+                    "studentName": "Zain Zaman",
+                    "studentMajor": "Applied Computing (B.A.)",
+                    "poster": "./posters/acmpt/zain_zaman_poster.jpg"
+                }
+            ]
+        }
+    ]
+}

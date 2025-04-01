@@ -1,0 +1,112 @@
+{
+  "presentations": [
+    {
+      "time": "1:00 PM - 1:15 PM",
+      "projectId": "csse-6-100",
+      "title": "Albireo Energy",
+      "studentName": "Rajbir Sandhu",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or Job opportunity",
+      "facultyAdvisor": "Dr. Laurie Anderson",
+      "section": 6,
+      "poster": "./posters/csse/rajbir_sandhu_poster.png",
+      "abstract": "During my internship at Albireo Energy, I worked on integrating industrial automation systems with software to enhance operational efficiency in smart buildings. My role involved developing automation logic, debugging real-time control systems, and optimizing software architecture for maintainability. This internship provided hands-on experience with both software and hardware integration, offering insights into full-stack automation and real-time system monitoring.\n\nThe core objective of my work was to ensure seamless communication between user interfaces, backend systems, and industrial controllers. To achieve this, I developed modern UI interfaces for real-time system monitoring using HTML, CSS, and JavaScript. Additionally, I implemented backend automation logic in Python and Java, utilizing WebSockets and TCP/IP to enable real-time data flow between system components. I also worked extensively with Rockwell Studio 5000, applying ladder logic for automation processes.\n\nA significant challenge was ensuring efficient data transmission and synchronization between the UI, backend, and industrial controllers. By systematically applying software testing methodologies and debugging tools, I enhanced system reliability and performance. I also conducted usability testing to refine the interface, ensuring an intuitive user experience. Throughout the project, I adhered to Albireo Energy’s software and hardware integration standards, ensuring compliance with industry best practices.\n\nThe impact of my contributions extended beyond software development. By collaborating with on-site teams, I gained experience in managing real-world installation challenges and troubleshooting integration issues in live environments. This practical exposure reinforced my ability to adapt to dynamic project requirements and navigate uncertainties effectively.\n\nOverall, my internship deepened my expertise in full-stack automation and real-time systems, equipping me with essential skills for future software engineering roles in automation, UI/UX, and backend engineering. The experience underscored the importance of UI and backend integration for automation efficiency and provided a strong foundation for tackling complex system integration challenges in the industry."
+    },
+    {
+      "time": "1:15 PM - 1:30 PM",
+      "projectId": "csse-6-115",
+      "title": "NovaMC",
+      "studentName": "Ali Alturfi",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or Job opportunity",
+      "facultyAdvisor": "Dr. Laurie Anderson",
+      "section": 6,
+      "poster": "./posters/csse/ali_alturfi_poster.jpg",
+      "abstract": "During my internship at NovaMC, a game company rooted in the Minecraft multiplayer server community, I worked on improving the player-versus-environment (PvE) experience for one of its most popular game modes. NovaMC’s server attracts thousands of unique players, but its outdated combat mechanics limited engagement and challenge. My project aimed to address this by developing an extensible AI library for non-player characters (NPCs), with a primary focus on creating aggressive enemy behaviors to enhance difficulty and immersion. To achieve this, I implemented an AI-driven pathfinding system using the A algorithm*, allowing NPCs to efficiently navigate complex environments and pursue players. The library also introduced a modular behavior system, making it easy to extend and implement additional NPC behaviors in the future. The first implementation of this system was wild enemies in the Scavengers feature, which spawn dynamically in the world, attack nearby players, and drop rewards and experience upon defeat. To maintain balance, enemy spawns scale based on the number of players in the area, ensuring a consistent challenge for both solo and group play. By designing the system to be highly flexible, NovaMC can seamlessly integrate new AI-driven interactions without requiring significant rework. The final product was a scalable and intelligent NPC system that enhanced the Scavengers feature within NovaMC’s Prisons game mode. This project introduced challenging, dynamic PvE encounters that complement NovaMC’s core gameplay by combining AI pathfinding with an extensible behavioral framework. The system improved difficulty balance and engagement and laid the groundwork for future AI-driven mechanics within the server."
+    },
+    {
+      "time": "1:30 PM - 1:45 PM",
+      "projectId": "csse-6-130",
+      "title": "SMARTMATE",
+      "studentName": "Jimmy Nguyen",
+      "studentMajor": "CSSE",
+      "projectType": "Individual Project",
+      "facultyAdvisor": "Dr. Laurie Anderson",
+      "section": 6,
+      "poster": "./posters/csse/jimmy_nguyen_poster.png",
+      "abstract": "    During my internship at Smart Mate, I worked on improving the scalability and efficiency of their real-time translation app for video calls. One of my main tasks was migrating the database from SQLite to PostgreSQL while using Azure for cloud storage and management. As Smart Mate’s user base grew, SQLite’s limitations became more apparent, making it difficult to handle larger amounts of data efficiently. Moving to PostgreSQL was necessary to support higher traffic and ensure the app remained responsive. Alongside this, I built a CI/CD pipeline to automate the deployment process, reducing the need for manual updates and making it easier for developers to push changes quickly and reliably.\n\n     To make this transition as smooth as possible, I started by analyzing the existing database structure to pinpoint areas where performance was slowing down. I then developed a migration strategy that preserved data integrity while minimizing downtime. Once the new database was in place, I fine-tuned queries and indexing to improve retrieval speeds. For the CI/CD pipeline, I set up GitHub Actions to handle builds, tests, and deployments, allowing for faster and more efficient development workflow.\n\n     Through this project, I expanded my technical knowledge in several areas, including cloud database management, query optimization, and DevOps workflows. I also gained important lessons about working in a fast-paced development environment, where balancing efficiency, reliability, and collaboration is key. Communicating with different teams and making sure changes were seamlessly integrated into the existing system gave me a better understanding of the challenges that come with scaling a live application.\n\n     The impact of these improvements was significant. Moving to PostgreSQL made the system more stable and reduced query execution times, while the automated deployment pipeline eliminated many of the bottlenecks caused by manual updates. As a result, Smart Mate’s developers can now work with a more scalable and maintainable system, and users experience faster, more reliable translations during video calls. These upgrades provide a strong foundation for future growth, ensuring that as Smart Mate expands, its technology can keep up with increasing demand establishing a strong foundation for improved real-time multilingual communication."
+    },
+    {
+      "time": "1:45 PM - 2:00 PM",
+      "projectId": "csse-6-145",
+      "title": "Stryker",
+      "studentName": "Jason Tran",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or job opportunity",
+      "facultyAdvisor": "Dr. Yang Peng",
+      "section": 6,
+      "poster": "./posters/csse/jason_tran_poster.png",
+      "abstract": "Stryker’s current process of executing test for a defibrillator’s defibrillation and pacing functions are inefficient and pose potential risks. On a single device, there can be about 210 different defib configurations and an additional 25 for pacing. The manual connection and disconnection of multiple test equipment for each configuration is time consuming and can potentially introduce risks such as setup error, accidental energy transfer, and equipment damage.\n\nThe purpose of this project is to design, develop, document, and test a graphical user interface (GUI) to control a custom Programmable Therapy Load 2 (PTL2) test fixture. This user-friendly application allows users to select the appropriate mode, settings, and apply it to the PTL2. These settings include defib load resistance, connection to an external load, ECG stimulus, pacing load resistance, pacing capacitance, and grounding options. This reduces the amount of equipment and connection swap which will increase efficiency and reduce risks.\n\nDuring the course of the project, the initial focus was on learning LabVIEW programming and gathering customer requirements through direct meetings and discussions. A draft GUI design was developed based on user needs, followed by multiple iterations of design feedback and refinements. After customer approval, implementation and testing of the working code began, incorporating LabVIEW's front panel controls and core functions.\n\nThe GUI framework, core functionalities, and initial tests were completed, but full integration remains in progress. Future work will focus on finalizing the driver implementation and documentation to ensure full integration of the PTL2 test fixture into the testing workflow."
+    },
+    {
+      "time": "2:00 PM - 2:15 PM",
+      "projectId": "csse-6-200",
+      "title": "EVODS",
+      "studentName": "Julian Hunter",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or Job opportunity",
+      "facultyAdvisor": "Dr. Mark Kochanski",
+      "section": 6,
+      "poster": "./posters/csse/julian_hunt_poster.png",
+      "abstract": "During my internship with EVODS, I was tasked to create the main site and vehicle reservation platform in its entirety. The primary goal of the main front-facing site is to allow customers to learn about what the company and platform offer to properties and their tenants. The bookings page is the platform where property tenants can book rentals and view available vehicles at the property. \n\nFor the first half of the capstone, I completed core website pages, including the Home, Fleet, 'Our App,' Blog, Contact Us, FAQ, and Scooters sections, with a focus on responsive and user-friendly designs. Halfway through the project, all the design work fell onto me alone, rather than from our formally hired designers. Given this change, I decided to make several large changes to the site design. These changes primarily involved updating how we the EVODS brand colors in the design. I used Figma extensively to keep the project design and usage of the brand style consistent and professional.\n\nThe project's ultimate goal is to create a robust vehicle reservation platform for property tenants, making fleet management easy for EVODS employees, and streamlining vehicle interactions for drivers. I successfully connected the SmartCar API to our backend which handles the API interactions from the platform to the vehicle manufacturers, and ultimately, the vehicles themselves. I implemented backend functionality for reservations, document handling, including verification documents such as driver licenses, vehicle service reports, and damage reports, and customer onboarding. Additionally, I integrated user authentication and secure database interactions using row-level security policies from Supabase.\n\nAs of now, the main site is fully deployed and available to the public to read what the company has to offer and how to contact us. The backend, where vehicle, user, property, and reservation data are viewed and managed, is functional in a testing and development capacity, and the user onboarding flow for property tenants is working as intended. Next steps are to complete the bookings page, and develop the mobile app, which is what I'll be working on with my continued employment post-graduation."
+    },
+    {
+      "time": "2:15 PM - 2:30 PM",
+      "projectId": "csse-6-215",
+      "title": "Personaify",
+      "studentName": "Brandon Wong",
+      "studentMajor": "CSSE",
+      "projectType": "Internship or Job opportunity",
+      "facultyAdvisor": "Dr. Mark Kochanski",
+      "section": 6,
+      "poster": "./posters/csse/brandon_wang_poster.png",
+      "abstract": "During my internship as a Software Engineer at Personaify, I focused on designing and implementing a Continuous Integration/Continuous Deployment (CI/CD) pipeline to create an automated testing process. The goal of this project was to streamline software development by automating testing workflows, reducing manual effort, and ensuring code reliability before deployment.\n\nTo achieve this, I integrated various DevOps tools such as Azure, GitHub Actions, and Docker to create an efficient pipeline. The pipeline was designed to automatically trigger test suites upon code commits, ensuring early bug detection and improving overall software quality. Additionally, I incorporated parallel execution strategies to optimize test runtime and leveraged containerization to maintain consistency across different environments.\n\nThis implementation resulted in a more robust and scalable testing framework that significantly reduced deployment risks and improved development efficiency. By automating the testing lifecycle, the team was able to detect issues earlier in the development cycle, leading to faster release cycles and increased confidence in software updates.\n\nThis project was significant as it reinforced the importance of CI/CD practices in modern software development. The automation of continuous testing not only improved software quality but also contributed to a more agile and efficient development workflow. My experience in designing this pipeline provided valuable insights into DevOps methodologies, software testing strategies, and best practices for maintaining a seamless deployment process."
+    },
+    {
+      "time": "2:30 PM - 2:45 PM",
+      "projectId": "csse-6-230",
+      "title": "Title of Poster",
+      "studentName": "Frank Zheng",
+      "studentMajor": "CSSE",
+      "projectType": "Faculty Research",
+      "facultyAdvisor": "Dr. Dong Si",
+      "section": 6,
+      "poster": "./posters/placeholder/comingsoon.jpg",
+      "abstract": "Enter abstract document here!"
+    },
+    {
+      "time": "2:45 PM - 3:00 PM",
+      "projectId": "csse-6-245",
+      "title": "Suicide Risk Detection for iCare Carebot",
+      "studentName": "Manaswee Sukhtankar",
+      "studentMajor": "CSSE",
+      "projectType": "Faculty Research",
+      "facultyAdvisor": "Dr. Dong Si",
+      "section": 6,
+      "poster": "./posters/csse/manaswee_sukhtankar_poster.png",
+      "abstract": "Suicide is a major public health concern, with over 700,000 deaths annually worldwide. Individuals with mental health disorders are at significantly higher risk of suicidal ideation, which is why chatbots like iCare’s Carebot present an opportunity to provide early intervention and support for individuals experiencing distress. However, AI models must be able to accurately detect suicidal cues to ensure appropriate crisis intervention. \n\nMy research aims to integrate a suicide risk detection model into Carebot by developing and evaluating two Natural Language Processing models: \n\n1. A Single-Task Learning (STL) model, trained only on suicide risk classification data.\n\n2. A Multi-Task Learning (MTL) model, trained with suicide risk detection as the primary task and sentiment analysis as an auxiliary task to improve contextual understanding.\n\n Both models were trained using Google’s BERT Mini transformer model, utilizing the Hugging Face suicide dataset and IMDB sentiment analysis dataset. Testing showed that MTL model outperformed the STL model, showing a lower false positive rate. However, with a false positive rate of 38%, the model still lacks the generalizability needed for full deployment. \n\nThe MTL model was integrated into Carebot as a test, with a mechanism that flags suicide-related messages and appends suicide prevention resources to the bot’s responses. Future improvements aim to enhance model reliability, ensuring Carebot provides accurate and ethical support for users in crisis."
+    },
+    {
+      "time": "3:00 PM - 3:15 PM",
+      "projectId": "csse-6-300",
+      "title": "Title of Poster",
+      "studentName": "Student Name",
+      "studentMajor": "CSSE",
+      "projectType": "",
+      "facultyAdvisor": "Dr. Dong Si",
+      "section": 6,
+      "poster": "./posters/placeholder/comingsoon.jpg",
+      "abstract": "Enter abstract document here!"
+    }
+  ]
+}
